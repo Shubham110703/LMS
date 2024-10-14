@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.active{
+  background-color: #0284c7;
+  color:#fff;
+  border-radius: 4px;
+}
+.active:hover{
+  background-color: #52b6e7 !important;
+  background-color: #0284c7 !important;
+}
+.coursebtn{
+  background-color: #0284c7 !important;
+  color:#fff;
+  padding:10px 20px;
+}
+
+.editbtn {
+  color:red !important;
+}
+
+.listitem:hover{
+  background-color: #7dcdf5;
+}
+
+.mainhead{
+  height:90vh !important;
+}
